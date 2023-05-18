@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Default
 
 [Preferences]
 PrefsVaultGUID=
@@ -203,55 +204,43 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=54C277C9-A7DE-4263-9491-30DDC0A11798
-Description=default
+Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=20
-Variation1=Designator=R43|UniqueId=\NFHGSUUD\JMIEEQDX|Kind=0|AlternatePart= 
-Variation2=Designator=R44|UniqueId=\NFHGSUUD\WYNPOBIL|Kind=0|AlternatePart= 
-Variation3=Designator=IC14A|UniqueId=\XDCURSEZ\RNABIJSH|Kind=1|AlternatePart= 
-Variation4=Designator=IC14E|UniqueId=\YHFHSRWO\RNABIJSH|Kind=1|AlternatePart= 
-Variation5=Designator=IC14F|UniqueId=\CVZBZGOY\RNABIJSH|Kind=1|AlternatePart= 
-Variation6=Designator=IC14C|UniqueId=\OUDGZYGH\RNABIJSH|Kind=1|AlternatePart= 
-Variation7=Designator=IC14B|UniqueId=\LQYLQBJJ\RNABIJSH|Kind=1|AlternatePart= 
-Variation8=Designator=IC14D|UniqueId=\YAELIIWE\RNABIJSH|Kind=1|AlternatePart= 
-Variation9=Designator=IC14G|UniqueId=\WXVRCPTF\RNABIJSH|Kind=1|AlternatePart= 
-Variation10=Designator=IC14H|UniqueId=\UVWGCVYJ\RNABIJSH|Kind=1|AlternatePart= 
-Variation11=Designator=R74A|UniqueId=\XDCURSEZ\MYFGPGUD|Kind=1|AlternatePart= 
-Variation12=Designator=R74B|UniqueId=\LQYLQBJJ\MYFGPGUD|Kind=1|AlternatePart= 
-Variation13=Designator=R74C|UniqueId=\OUDGZYGH\MYFGPGUD|Kind=1|AlternatePart= 
-Variation14=Designator=R74D|UniqueId=\YAELIIWE\MYFGPGUD|Kind=1|AlternatePart= 
-Variation15=Designator=R74E|UniqueId=\YHFHSRWO\MYFGPGUD|Kind=1|AlternatePart= 
-Variation16=Designator=R74F|UniqueId=\CVZBZGOY\MYFGPGUD|Kind=1|AlternatePart= 
-Variation17=Designator=R74G|UniqueId=\WXVRCPTF\MYFGPGUD|Kind=1|AlternatePart= 
-Variation18=Designator=R74H|UniqueId=\UVWGCVYJ\MYFGPGUD|Kind=1|AlternatePart= 
-Variation19=Designator=R22|UniqueId=\OKXLDUEH\RFIAWJRX|Kind=1|AlternatePart= 
-Variation20=Designator=R26|UniqueId=\OKXLDUEH\QQSODPRY|Kind=1|AlternatePart= 
+VariationCount=8
+Variation1=Designator=R74A|UniqueId=\XDCURSEZ\MYFGPGUD|Kind=1|AlternatePart= 
+Variation2=Designator=R74B|UniqueId=\LQYLQBJJ\MYFGPGUD|Kind=1|AlternatePart= 
+Variation3=Designator=R74C|UniqueId=\OUDGZYGH\MYFGPGUD|Kind=1|AlternatePart= 
+Variation4=Designator=R74D|UniqueId=\YAELIIWE\MYFGPGUD|Kind=1|AlternatePart= 
+Variation5=Designator=R74E|UniqueId=\YHFHSRWO\MYFGPGUD|Kind=1|AlternatePart= 
+Variation6=Designator=R74F|UniqueId=\CVZBZGOY\MYFGPGUD|Kind=1|AlternatePart= 
+Variation7=Designator=R74G|UniqueId=\WXVRCPTF\MYFGPGUD|Kind=1|AlternatePart= 
+Variation8=Designator=R74H|UniqueId=\UVWGCVYJ\MYFGPGUD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for HVAMP_8CH\Design Rule Check - HVAMP_8CH.html
-DItemRevisionGUID=
-
 [Parameter1]
-Name=ProjAddress1
-Value=Warsaw University of Technology
+Name=
+Value=
 
 [Parameter2]
-Name=ProjAddress2
-Value=Nowowiejska 15/19
+Name=ProjRevision
+Value=1.2
 
 [Parameter3]
-Name=ProjAddress3
-Value=Warsaw, Poland
-
-[Parameter4]
 Name=ProjOrganization
 Value=Institute of Electronic systems
 
+[Parameter4]
+Name=ProjAddress3
+Value=Warsaw, Poland
+
 [Parameter5]
-Name=ProjRevision
-Value=1.1
+Name=ProjAddress2
+Value=Nowowiejska 15/19
+
+[Parameter6]
+Name=ProjAddress1
+Value=Warsaw University of Technology
 
 [Configuration1]
 Name=Sources
@@ -371,22 +360,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -501,6 +480,12 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1082,7 +1067,7 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=0
 Type13=0
